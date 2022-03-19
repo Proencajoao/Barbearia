@@ -1,27 +1,67 @@
 # Barbearia
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.1.
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Projeto criado em sala durante o curso Técnico de Desenvolvimento de Sistemas.
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+    O projeto foi desenvolvido no pensando de agilizar o sistema de filas de uma barbearia.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+    O barbeiro poderá organizar os clientes em um cronograma, cadastrando e dando os serviços
 
-## Running unit tests
+    como finalizados.[
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-## Further help
+# Forma de Utilização
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+    Inicialmente o barbeiro irá inserir uma senha na tela inicial, senha essa que foi definida
+
+    na criação do projeto, caso a senha for inserida corretamente, uma tela de cadastro surge,
+
+    o barbeiro então terá que preencher os campos solicitados com:Nome, Contato e Serviço.
+
+    Após preenchido e presionado o botão "Cadastrar cliente na fila", os campos digitados 
+
+    serão inseridos na tabela abaixo do botão. Quando já finalizado o serviço, o barbeiro
+
+    poderá utilizar da função "Finalizar", que se encontra ao lado da linha de cadastro do
+
+    cliente, assim limpando a linha e declarando o serviço como pronto.
+    
+## Autores
+
+- [Proencajoao](https://www.github.com/Proencajoao)
+
+
+## Funcionalidades
+
+- Utilização do ngIf
+- Utilização do NgFor
+- Integração com backend
+- Envio de requisições (GET, POST, PATCH)
+- HTML básico
+
+## Instalação
+
+
+
+Para ter acesso é necessário:
+
+
+
+- Copiar o link HTTPS do projeto no GITHUB
+
+- Clonar o repositório usando `git clone <link>`
+
+- Instalar as dependências `npm i`
+
+- Iniciar o servidor `ng serve -o`
+
+
+    
+    

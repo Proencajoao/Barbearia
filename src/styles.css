@@ -2,3 +2,13 @@
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.green-snackbar{
+    background-color: rgb(87, 221, 116);
+    color: #fff;
+}
+
+.red-snackbar{
+    background-color: rgb(212, 69, 69);
+    color: #fff;
+}
